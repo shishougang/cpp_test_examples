@@ -1,0 +1,5 @@
+add_subdirectory(${MAINFOLDER}/thirdparty/gtest)
+set(GTEST_ROOT ${MAINFOLDER}/thirdparty/gtest)
+set(GTEST_INCLUDE_DIR ${GTEST_ROOT}/include)
+set(GTEST_LIBRARIES gtest gtest_main)
+include_directories(${GTEST_INCLUDE_DIR})
